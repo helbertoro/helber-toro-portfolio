@@ -23,10 +23,10 @@
   --text: #eceef1;
   --text-dim: #a2a9b5;
   --text-faint: #6d7480;
-  --accent: #ff5ca8;
-  --accent-ink: #1a0a12;
-  --accent-soft: rgba(255, 92, 168, .13);
-  --glow: rgba(255, 92, 168, .16);
+  --accent: #ff7a45;
+  --accent-ink: #1a0d06;
+  --accent-soft: rgba(255, 122, 69, .13);
+  --glow: rgba(255, 122, 69, .16);
   --shadow: 0 24px 60px -30px rgba(0, 0, 0, .7);
   color-scheme: dark;
 }
@@ -40,10 +40,10 @@
   --text: #15171a;
   --text-dim: #4d535c;
   --text-faint: #7d8590;
-  --accent: #d4136c;
+  --accent: #d93f0b;
   --accent-ink: #ffffff;
-  --accent-soft: rgba(212, 19, 108, .09);
-  --glow: rgba(255, 92, 168, .26);
+  --accent-soft: rgba(217, 63, 11, .09);
+  --glow: rgba(255, 140, 80, .26);
   --shadow: 0 24px 60px -34px rgba(40, 40, 20, .35);
   color-scheme: light;
 }
@@ -209,8 +209,8 @@ h1, h2, h3 { font-family: var(--font-display); line-height: 1.1; letter-spacing:
 .code-card__bar span { margin-left: auto; font-family: var(--font-mono); font-size: .75rem; color: var(--text-faint); }
 .code-card__body { margin: 0; padding: 1.25rem 1.25rem 1.4rem; font-family: var(--font-mono); font-size: .82rem; line-height: 1.75; overflow-x: auto; color: var(--text-dim); }
 .tk-k { color: #c792ea; } .tk-v { color: var(--text); } .tk-p { color: #7fb4ff; }
-.tk-s { color: var(--accent); } .tk-n { color: #f5a97f; }
-:root[data-theme="light"] .tk-k { color: #8a3fc0; } :root[data-theme="light"] .tk-p { color: #1d5fc4; } :root[data-theme="light"] .tk-n { color: #b4501a; }
+.tk-s { color: var(--accent); } .tk-n { color: #f2cc60; }
+:root[data-theme="light"] .tk-k { color: #8a3fc0; } :root[data-theme="light"] .tk-p { color: #1d5fc4; } :root[data-theme="light"] .tk-n { color: #946200; }
 
 .stats {
   display: grid; grid-template-columns: repeat(4, 1fr); margin-top: clamp(3rem, 7vw, 5.5rem);
